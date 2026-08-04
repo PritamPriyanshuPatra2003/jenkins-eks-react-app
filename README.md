@@ -4,7 +4,7 @@
 
 **A fully automated CI/CD pipeline that builds, containerizes, and deploys a React (Vite) application to Amazon EKS — from `git push` to production, with zero manual intervention.**
 
-![Architecture](./screenshots/architecture-diagram.png)
+![Architecture](./screenshots/00-Architecture/architecture-diagram.png)
 
 </div>
 
