@@ -1,0 +1,38 @@
+{
+    "StackSummaries": [
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:245594728226:stack/eksctl-hilarious-party-1785788326-nodegroup-ng-e5607268/ce61b280-8f79-11f1-b9bc-0afdb7abab03",
+            "StackName": "eksctl-hilarious-party-1785788326-nodegroup-ng-e5607268",
+            "TemplateDescription": "EKS Managed Nodes (SSH access: false) [created by eksctl]",
+            "CreationTime": "2026-08-03T20:27:54.183000+00:00",
+            "DeletionTime": "2026-08-03T21:04:59.571000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "25c6dbf1-2cd8-41bd-9838-345822f363f3"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:245594728226:stack/eksctl-hilarious-party-1785788326-cluster/88c86d00-8f78-11f1-ba6e-0af47f2d6beb",
+            "StackName": "eksctl-hilarious-party-1785788326-cluster",
+            "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+            "CreationTime": "2026-08-03T20:18:47.926000+00:00",
+            "DeletionTime": "2026-08-03T21:05:30.102000+00:00",
+            "StackStatus": "DELETE_IN_PROGRESS",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "ef2936b5-169c-42a5-a785-dd20f9f752d0"
+                }
+            ]
+        }
+    ]
+}

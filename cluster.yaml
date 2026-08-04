@@ -1,0 +1,16 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: devops-cluster
+  region: ap-south-1
+  version: "1.34"
+
+managedNodeGroups:
+  - name: workers
+    instanceType: t3.small
+    desiredCapacity: 1
+    minSize: 1
+    maxSize: 1
+    amiFamily: AmazonLinux2023
+    privateNetworking: false

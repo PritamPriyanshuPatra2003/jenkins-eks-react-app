@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: react-config
+
+data:
+  APP_NAME: "React Demo"
+  ENVIRONMENT: "Development"
+  API_URL: "https://api.example.com"
+  APP_VERSION: "2.1"

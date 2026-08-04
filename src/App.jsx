@@ -4,9 +4,10 @@ function App() {
   return (
     <main className="app">
       <div className="card">
-        <h1>🚀 DevOps CI/CD Project</h1>
+        <h1>🚀 React App - Version 2.1  </h1>
 
         <h2>React + Docker + Kubernetes + Jenkins + Amazon EKS</h2>
+	<h2> Rolling update - Kubernetes</h2>
 
         <p>
           This application will be built, containerized, and deployed

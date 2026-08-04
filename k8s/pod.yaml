@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: react-pod
+
+spec:
+  containers:
+    - name: react-container
+      image: jenkins-eks-react-app:1.0
+      ports:
+        - containerPort: 80
